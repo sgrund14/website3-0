@@ -1,0 +1,14 @@
+{
+  "name": "website-choo",
+  "short_name": "website-choo",
+  "description": "samgrund.2.0.com",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#000",
+  "theme_color": "#000",
+  "icons": [{
+    "src": "/assets/icon.png",
+    "type": "image/png",
+    "sizes": "512x512"
+  }]
+}
