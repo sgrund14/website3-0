@@ -1,9 +1,9 @@
-const gr8 = require('gr8');
+const gr8 = require('gr8')
 
 // font constants
 const type = {
   'inter': '"Inter UI"'
-};
+}
 // color constants
 const colors = {
   lg: '#ededed',
@@ -11,7 +11,7 @@ const colors = {
   bluegrey: '#545475',
   black: 'rgb(0, 0, 0)',
   white: 'rgb(255, 255, 255)'
-};
+}
 //
 
 // font util
@@ -21,7 +21,7 @@ const fonts = {
   },
   vals: type,
   join: '-'
-};
+}
 
 // background/font color util
 const colorUtil = {
@@ -31,8 +31,8 @@ const colorUtil = {
   },
   vals: colors,
   join: '-',
-  modifiers:[false, ':hover']
-};
+  modifiers: [false, ':hover']
+}
 
 // positioning util
 const placement = {
@@ -66,22 +66,22 @@ const placement = {
     100
   ],
   unit: '%'
-};
+}
 const lineHeight = {
   prop: 'line-height',
   vals: [1, 1.2, 1.4, 1.6, 1.8, 2],
   unit: 'rem'
-};
+}
 const sizing = {
   prop: {
     mnh: 'min-height',
     mxh: 'max-height'
   },
   vals: [
-    { mobile: 'calc(100vh - 2.2rem)'},
+    { mobile: 'calc(100vh - 2.2rem)' },
     { '75': '75vh' }
   ]
-};
+}
 const spacing = {
   prop: {
     m: 'margin',
@@ -91,7 +91,7 @@ const spacing = {
     pt: 'padding-top',
     pb: 'padding-bottom'
   },
-  vals: [.6, .8, 2.2, 2.4, 2.6],
+  vals: [0.6, 0.8, 2.2, 2.4, 2.6],
   unit: 'rem'
 }
 
@@ -100,14 +100,14 @@ const fontSizes = {
   prop: {
     fs: 'font-size'
   },
-  vals: [.8, 1, 1.2, 1.4, 1.6, 1.8, 2],
+  vals: [0.8, 1, 1.2, 1.4, 1.6, 1.8, 2],
   unit: 'rem'
-};
+}
 
 const styling = {
   prop: 'list-style',
   vals: ['none']
-};
+}
 
 const gr8css = gr8({
   breakpoints: {
@@ -124,7 +124,7 @@ const gr8css = gr8({
     styling,
     lineHeight
   ]
-});
+})
 
 const custom = `
   html {
@@ -150,9 +150,9 @@ const custom = `
       transform: unset;
     }
   }
-`;
+`
 
 module.exports = [
   gr8css.toString(),
   custom
-].join(' ');
+].join(' ')
