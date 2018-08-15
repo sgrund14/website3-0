@@ -40,7 +40,7 @@ const entries = [
 	{
 		platform: 'scuttlebutt',
 		username: '@0ha3+Rp+7zKF65nchmlYG9U5mm9hW115xVXIixQEJxc=.ed25519',
-		link: ''
+		link: 'https://scuttlebot.io/'
 	}
 ];
 
