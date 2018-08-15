@@ -22,7 +22,6 @@ module.exports = function (state, emit) {
 				// view new section
 				emit('updateSection', id);
 				const translation = state.onMobile ? 'calc(-1*(100vh - 2.4rem))' : `${translationMap[id]}vh`;
-				console.log(translation);
 				el.style.transform = `translateY(${translation})`;
 			}
 		}

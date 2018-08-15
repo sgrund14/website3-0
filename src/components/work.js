@@ -1,32 +1,6 @@
 const html = require('choo/html');
 const workEntry = require('./workEntry');
-
-const entries = [
-	{
-		title: 'FABB',
-		description: 'Femme Artists Breaking Boundaries',
-		role: 'Web Design + Development',
-		link: 'https://fabb.world'
-	},
-	{
-		title: 'WOBC',
-		description: 'Oberlin College and Community Radio',
-		role: 'Web Design + Development',
-		link: 'https://www.wobc.org'
-	},
-	{
-		title: 'Prism',
-		description: 'A Salt and Pepper Games Production',
-		role: 'Web/Game Design + Development',
-		link: 'https://salt-and-pepper-games.github.io/prism/'
-	},
-	{
-		title: 'DDJ',
-		description: 'A Site for Deborah Davis Jackson',
-		role: 'Web Design + Development',
-		link: 'http://deborahdavisjackson.org/'
-	},
-];
+const { workEntries: entries } = require('../content/entries');
 
 module.exports = function(state, emit) {
 	return html`

@@ -6,13 +6,12 @@ const ui = require('./src/stores/ui');
 
 css('./src/styles/index.css');
 css('./src/styles/index.js');
-console.log(require('./src/styles/index.js'))
 
-const app = choo()
+const app = choo();
 if (process.env.NODE_ENV !== 'production') {
-  app.use(require('choo-devtools')())
+  app.use(require('choo-devtools')());
 } else {
-  app.use(require('choo-service-worker')())
+  app.use(require('choo-service-worker')());
 }
 
 app.use(ui);

@@ -11,7 +11,7 @@ module.exports = view
 function view (state, emit) {
   if (state.title !== TITLE) emit(state.events.DOMTITLECHANGE, TITLE)
   return html`
-    <body class="oh m0 ff-inter">
+    <body class="oh m0 ff-inter usn">
         ${navigation(state, emit)}
         ${about(state, emit)}
         ${work(state, emit)}
