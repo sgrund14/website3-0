@@ -13,14 +13,14 @@
   "dependencies": {
     "choo": "^6.13.0",
     "choo-service-worker": "^2.4.0",
-    "sheetify": "^7.3.3",
-    "tachyons": "^4.11.1"
+    "sheetify": "^7.3.3"
   },
   "devDependencies": {
     "bankai": "^9.14.0",
     "choo-devtools": "^2.5.1",
     "choo-scaffold": "^1.2.0",
     "dependency-check": "^3.2.0",
+    "gr8": "^3.1.5",
     "standard": "^11.0.1"
   }
 }
