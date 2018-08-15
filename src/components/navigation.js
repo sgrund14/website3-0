@@ -36,7 +36,7 @@ module.exports = function (state, emit) {
 	        	sam grund
 	        </div>
 	        <div
-	        	class="fs1-4 pl4 curp navRow bg-lg fc-white psa t25 h25 w100 pb1 x xac"
+	        	class="fs1-4 pl4 curp navRow bg-lg fc-black psa t25 h25 w100 pb1 x xac"
 	        	portrait="p0 h100 ww25 l25 t0 xjc xas fs0-8 pt0-8"
 	        	onclick=${() => scrollTo('about')}
 	        >

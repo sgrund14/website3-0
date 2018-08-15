@@ -6,8 +6,9 @@ const type = {
 };
 // color constants
 const colors = {
-  lg: '#BDBDBF',
-  dg: '#545475',
+  lg: '#ededed',
+  dg: '#5c5c5c',
+  bluegrey: '#545475',
   black: 'rgb(0, 0, 0)',
   white: 'rgb(255, 255, 255)'
 };

@@ -27,7 +27,7 @@ const contactEntries = [
 	{
 		platform: 'linkedin',
 		username: '@samuel-grund',
-		link: 'www.linkedin.com/in/samuel-grund-2a7481108'
+		link: 'https://www.linkedin.com/in/samuel-grund-2a7481108'
 	},
 	{
 		platform: 'p2p',

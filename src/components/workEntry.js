@@ -7,7 +7,7 @@ module.exports = function(entry) {
 			target="__blank"
 			rel="noopener noreferrer"
 			class="xn x xjb xac px4 tdn fc-white hv12-5 bg-white-h fc-dg-h"
-			portrait="px2"
+			portrait="px2 xdc xas xjc"
 		>
 			<div class="x xdc">
 				<p class="m0">${entry.title}</p>
