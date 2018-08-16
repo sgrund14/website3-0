@@ -29,32 +29,32 @@ module.exports = function (state, emit) {
   return html`
     <div class="oh vh100 vw100 vwmx100 m0 psr">
       <div
-            class="fs1-4 pl4 psa t0 h25 w100 pb1 x xac name"
+            class="fs1-4 pl4 psa t0 h25 w100 pb1 x xac usn"
             portrait="p0 h100 ww25 l0 xjc xas fs0-8 pt0-8"
             onclick=${() => scrollTo('home')}
           >
-            sam grund
+            Sam Grund
           </div>
           <div
-            class="fs1-4 pl4 curp navRow bg-lg fc-black psa t25 h25 w100 pb1 x xac"
+            class="fs1-4 pl4 curp navRow bg-lg fc-black psa t25 h25 w100 pb1 x xac usn"
             portrait="p0 h100 ww25 l25 t0 xjc xas fs0-8 pt0-8"
             onclick=${() => scrollTo('about')}
           >
-            about
+            About
           </div>
           <div
-            class="fs1-4 pl4 curp navRow bg-dg fc-white psa t50 h25 w100 pb1 x xac"
+            class="fs1-4 pl4 curp navRow bg-dg fc-white psa t50 h25 w100 pb1 x xac usn"
             portrait="p0 h100 ww25 l50 t0 xjc xas fs0-8 pt0-8"
             onclick=${() => scrollTo('work')}
           >
-            work
+            Work
           </div>
           <div
-            class="fs1-4 pl4 curp navRow bg-black fc-white psa t75 h25 w100 pb1 x xac"
+            class="fs1-4 pl4 curp navRow bg-black fc-white psa t75 h25 w100 pb1 x xac usn"
             portrait="p0 h100 ww25 l75 t0 xjc xas fs0-8 pt0-8"
             onclick=${() => scrollTo('contact')}
           >
-            contact
+            Contact
           </div>
         </div>
   `

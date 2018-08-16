@@ -4,7 +4,6 @@ const main = require('./src/views/main')
 const notFound = require('./src/views/404')
 const ui = require('./src/stores/ui')
 
-css('./assets/interui/stylesheet.css')
 css('./src/styles/index.js')
 
 const app = choo()

@@ -1,33 +1,33 @@
 const contactEntries = [
   {
-    platform: 'email',
+    platform: 'Email',
     username: 'sgrund626@gmail.com',
     link: 'mailto:sgrund626@gmail.com'
   },
   {
-    platform: 'github',
+    platform: 'Github',
     username: '@sgrund14',
     link: 'https://github.com/sgrund14'
   },
   {
-    platform: 'are.na',
+    platform: 'Are.na',
     username: '@samuel-grund',
     link: 'https://www.are.na/samuel-grund'
   },
   {
-    platform: 'twitter',
+    platform: 'Twitter',
     username: '@gruno14',
     link: 'https://twitter.com/gruno14'
   },
   {
-    platform: 'linkedin',
+    platform: 'Linkedin',
     username: '@samuel-grund',
     link: 'https://www.linkedin.com/in/samuel-grund-2a7481108'
   },
   {
-    platform: 'p2p',
-    username: 'dat://0f58a693ac47446a47e654400e43fc9b66e889ecf3c16fdf62f33e884fd83132',
-    link: 'dat://0f58a693ac47446a47e654400e43fc9b66e889ecf3c16fdf62f33e884fd83132'
+    platform: 'P2P',
+    username: 'dat://64a651fb5ad1edf30f9239fc809149582e2dade8540eaf9747116536ecb58999/',
+    link: 'dat://64a651fb5ad1edf30f9239fc809149582e2dade8540eaf9747116536ecb58999/'
   }
 ]
 const workEntries = [

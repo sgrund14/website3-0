@@ -11,7 +11,7 @@ module.exports = view
 function view (state, emit) {
   if (state.title !== TITLE) emit(state.events.DOMTITLECHANGE, TITLE)
   return html`
-    <body style="font-family: 'Inter UI';" class="oh m0 usn">
+    <body class="ff-sans oh m0">
       ${navigation(state, emit)}
       ${about(state, emit)}
       ${work(state, emit)}

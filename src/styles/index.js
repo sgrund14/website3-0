@@ -2,7 +2,7 @@ const gr8 = require('gr8')
 
 // font constants
 const type = {
-  'inter': '"Inter UI"'
+  'sans': 'arial, sans-serif'
 }
 // color constants
 const colors = {
@@ -109,10 +109,15 @@ const styling = {
   vals: ['none']
 }
 
+const typography = {
+  prop: 'word-break',
+  vals: ['break-all', 'break-word']
+}
+
 const gr8css = gr8({
   breakpoints: {
     portrait: '(orientation: portrait)',
-    small: 650
+    small: '(min-width: 650px) and (max-width: 1024px)'
   },
   utils: [
     colorUtil,
@@ -122,7 +127,8 @@ const gr8css = gr8({
     sizing,
     spacing,
     styling,
-    lineHeight
+    lineHeight,
+    typography
   ]
 })
 
