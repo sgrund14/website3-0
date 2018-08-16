@@ -57,6 +57,7 @@ const placement = {
     { v25: '25vh' },
     { w25: '25vw' },
     { v75: '75vh' },
+    { v100: '100vh' },
     50,
     66.7,
     70,
@@ -100,7 +101,7 @@ const fontSizes = {
   prop: {
     fs: 'font-size'
   },
-  vals: [0.8, 1, 1.2, 1.4, 1.6, 1.8, 2],
+  vals: [0.6, 0.8, 1, 1.2, 1.4, 1.6, 1.8, 2],
   unit: 'rem'
 }
 
@@ -116,8 +117,9 @@ const typography = {
 
 const gr8css = gr8({
   breakpoints: {
-    portrait: '(orientation: portrait)',
-    small: '(min-width: 650px) and (max-width: 1024px)'
+    portrait: '(orientation: portrait), (max-width: 650px)',
+    small: '(min-width: 650px) and (max-width: 1024px)',
+    short: '(max-height: 500px) and (min-width: 650px)'
   },
   utils: [
     colorUtil,
@@ -151,9 +153,23 @@ const custom = `
   .navRow:hover {
     transform: translateY(-1rem)
   }
-  @media (orientation: portrait) {
+  .contact-active, .work-active {
+    transform: translateY(-100vh);
+  }
+  .about-active {
+    transform: translateY(-75vh);
+  }
+  @media (max-height: 500px) {
+    .navRow:hover {
+      transform: translateY(-.25rem)
+    }
+  }
+  @media (orientation: portrait), (max-width: 650px) {
     .navRow:hover {
       transform: unset;
+    }
+    .contact-active, .work-active, .about-active {
+      transform: translateY(calc(-1*(100vh - 2.4rem)));
     }
   }
 `

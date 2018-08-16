@@ -16,6 +16,5 @@ if (process.env.NODE_ENV !== 'production') {
 app.use(ui)
 
 app.route('/', main)
-app.route('/:section', main)
-
+app.route('/*', main)
 module.exports = app.mount('body')

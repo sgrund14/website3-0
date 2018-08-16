@@ -7,10 +7,15 @@ module.exports = function (state, emit) {
     <div
       id="contact"
       class="psa l20 w80 bg-black fc-white vhmn100 x xdc xjc"
-      portrait="mhmobile p0 pt1 l0 w100 xjs"
+      portrait="mnhmobile p0 l0 w100 hv75"
       small="l30 w70"
+      short="ha"
     >
-      ${entries.map(entry => contactEntry(entry))}
+      <div
+        class="h100 w100 os"
+      >
+        ${entries.map(entry => contactEntry(entry))}
+      </div>
     </div>
   `
 }
