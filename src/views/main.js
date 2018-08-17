@@ -4,7 +4,7 @@ const about = require('../components/about')
 const work = require('../components/work')
 const contact = require('../components/contact')
 
-const TITLE = 'Sammy G'
+const TITLE = 'Sam Grund'
 
 module.exports = view
 

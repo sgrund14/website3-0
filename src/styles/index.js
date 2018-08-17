@@ -2,7 +2,7 @@ const gr8 = require('gr8')
 
 // font constants
 const type = {
-  'sans': 'arial, sans-serif'
+  'sans': 'system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Droid Sans, Helvetica Neue'
 }
 // color constants
 const colors = {
@@ -114,10 +114,10 @@ const typography = {
   prop: 'word-break',
   vals: ['break-all', 'break-word']
 }
-
+const mobileBreakpoint = '(orientation: portrait), (max-width: 650px)';
 const gr8css = gr8({
   breakpoints: {
-    portrait: '(orientation: portrait), (max-width: 650px)',
+    portrait: `${mobileBreakpoint}`,
     small: '(min-width: 650px) and (max-width: 1024px)',
     short: '(max-height: 500px) and (min-width: 650px)'
   },
@@ -164,7 +164,7 @@ const custom = `
       transform: translateY(-.25rem)
     }
   }
-  @media (orientation: portrait), (max-width: 650px) {
+  @media ${mobileBreakpoint} {
     .navRow:hover {
       transform: unset;
     }

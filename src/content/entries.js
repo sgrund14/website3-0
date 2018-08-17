@@ -26,8 +26,8 @@ const contactEntries = [
   },
   {
     platform: 'P2P',
-    username: 'dat://64a651fb5ad1edf30f9239fc809149582e2dade8540eaf9747116536ecb58999/',
-    link: 'dat://64a651fb5ad1edf30f9239fc809149582e2dade8540eaf9747116536ecb58999/'
+    username: 'dat://1d671b7387087d527de9790520295383c1fb2fe88655bfbe78f477e87dcddd99/',
+    link: 'dat://1d671b7387087d527de9790520295383c1fb2fe88655bfbe78f477e87dcddd99/'
   }
 ]
 const workEntries = [
