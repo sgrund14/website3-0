@@ -44,7 +44,7 @@ const placement = {
   },
   vals: [
     { 'a': 'auto' },
-    { 'mobile': '2.4rem' },
+    { 'mobile': '2.6rem' },
     0,
     10,
     20,
@@ -76,7 +76,7 @@ const translations = {
   vals: [
     { y75: 'translateY(75vh)' },
     { y100: 'translateY(100vh)' },
-    { ymobile: 'translateY(calc(100vh - 2.4rem))' }
+    { ymobile: 'translateY(calc(100vh - 2.6rem))' }
   ]
 };
 
@@ -91,7 +91,7 @@ const sizing = {
     mxh: 'max-height'
   },
   vals: [
-    { mobile: 'calc(100vh - 2.4rem)' },
+    { mobile: 'calc(100vh - 2.5rem)' },
     { '75': '75vh' }
   ]
 }
