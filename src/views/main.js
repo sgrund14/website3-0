@@ -11,11 +11,13 @@ module.exports = view
 function view (state, emit) {
   if (state.title !== TITLE) emit(state.events.DOMTITLECHANGE, TITLE)
   return html`
-    <body class="ff-sans oh m0">
-      ${navigation(state, emit)}
-      ${about(state, emit)}
-      ${work(state, emit)}
-      ${contact(state, emit)}
+    <body class="ff-sans m0">
+      <div class="oh h100 w100 psa b0">
+        ${navigation(state, emit)}
+        ${about(state, emit)}
+        ${work(state, emit)}
+        ${contact(state, emit)}
+      </div>
     </body>
   `
 }

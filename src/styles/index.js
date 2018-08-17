@@ -44,6 +44,7 @@ const placement = {
   },
   vals: [
     { 'a': 'auto' },
+    { 'mobile': '2.4rem' },
     0,
     10,
     20,
@@ -68,6 +69,17 @@ const placement = {
   ],
   unit: '%'
 }
+const translations = {
+  prop: {
+    tr: 'transform'
+  },
+  vals: [
+    { y75: 'translateY(75vh)' },
+    { y100: 'translateY(100vh)' },
+    { ymobile: 'translateY(calc(100vh - 2.4rem))' }
+  ]
+};
+
 const lineHeight = {
   prop: 'line-height',
   vals: [1, 1.2, 1.4, 1.6, 1.8, 2],
@@ -79,7 +91,7 @@ const sizing = {
     mxh: 'max-height'
   },
   vals: [
-    { mobile: 'calc(100vh - 2.2rem)' },
+    { mobile: 'calc(100vh - 2.4rem)' },
     { '75': '75vh' }
   ]
 }
@@ -130,7 +142,8 @@ const gr8css = gr8({
     spacing,
     styling,
     lineHeight,
-    typography
+    typography,
+    translations
   ]
 })
 
@@ -153,11 +166,8 @@ const custom = `
   .navRow:hover {
     transform: translateY(-1rem)
   }
-  .contact-active, .work-active {
-    transform: translateY(-100vh);
-  }
-  .about-active {
-    transform: translateY(-75vh);
+  .panel-active {
+    transform: translateY(0);
   }
   @media (max-height: 500px) {
     .navRow:hover {
@@ -167,9 +177,6 @@ const custom = `
   @media ${mobileBreakpoint} {
     .navRow:hover {
       transform: unset;
-    }
-    .contact-active, .work-active, .about-active {
-      transform: translateY(calc(-1*(100vh - 2.4rem)));
     }
   }
 `

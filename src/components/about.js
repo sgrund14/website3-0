@@ -4,8 +4,8 @@ module.exports = function (state, emit) {
   return html`
     <div
       id="about"
-      class="psa l20 w80 bg-lg fc-black vhmn100 pl4"
-      portrait="mnhmobile p0 l0 w100 hv75"
+      class="psa l20 w80 tv25 try75 bg-lg fc-black hv100 pl4"
+      portrait="p0 l0 b0 w100 tmobile trymobile ha"
       small="l30 w70"
     >
       <div

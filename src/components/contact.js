@@ -6,13 +6,13 @@ module.exports = function (state, emit) {
   return html`
     <div
       id="contact"
-      class="psa l20 w80 bg-black fc-white vhmn100 x xdc xjc"
-      portrait="mnhmobile p0 l0 w100 hv75"
+      class="psa l20 w80 t0 try100 bg-black fc-white hv100 x xdc xjc"
+      portrait="p0 l0 b0 w100 tmobile trymobile xjs ha"
       small="l30 w70"
       short="ha"
     >
       <div
-        class="h100 w100 os"
+        class="ha w100 os"
       >
         ${entries.map(entry => contactEntry(entry))}
       </div>
