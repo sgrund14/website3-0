@@ -5,7 +5,7 @@ module.exports = function (state, emit) {
     <div
       id="about"
       class="psa l20 w80 tv25 try75 bg-lg fc-black hv100 pl4"
-      portrait="p0 l0 b0 w100 tmobile trymobile ha"
+      portrait="p0 l0 b0 w100 tmobile trymobile ha pt0-6"
       small="l30 w70"
     >
       <div
