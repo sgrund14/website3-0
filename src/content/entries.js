@@ -45,7 +45,7 @@ const workEntries = [
   },
   {
     title: 'Prism',
-    description: 'A Salt and Pepper Games Production',
+    description: 'A Groundbreaking Puzzle Game',
     role: 'Web/Game Design + Development',
     link: 'https://salt-and-pepper-games.github.io/prism/'
   },

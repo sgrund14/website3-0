@@ -1,7 +1,6 @@
 const css = require('sheetify')
 const choo = require('choo')
 const main = require('./src/views/main')
-const notFound = require('./src/views/404')
 const ui = require('./src/stores/ui')
 
 css('./src/styles/index.js')
