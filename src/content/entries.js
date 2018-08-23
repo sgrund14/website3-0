@@ -16,8 +16,8 @@ const contactEntries = [
   },
   {
     platform: 'Twitter',
-    username: '@gruno14',
-    link: 'https://twitter.com/gruno14'
+    username: '@s_and_p_games',
+    link: 'https://twitter.com/s_and_p_games'
   },
   {
     platform: 'Linkedin',
