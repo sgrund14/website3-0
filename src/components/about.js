@@ -17,8 +17,10 @@ module.exports = function (state, emit) {
           short="fs0-8 lh1-2"
         >
           <li class="curd">Developer + Designer</li>
-          <a class="tdn fc-black" href="">New York City</a>
-          <a class="tdn fc-black" href="https://1stdibs.com">Front End Engineer @ 1stdibs</a>
+          <a class="tdn fc-black" target="__blank"
+      rel="noopener noreferrer" href="http://1.bp.blogspot.com/-u_TD-Zwn23E/T8995hFjTuI/AAAAAAAADyI/rFZ__OCb7KE/s1600/Manhattan+New+York+City+4.jpg">New York City</a>
+          <a class="tdn fc-black" target="__blank"
+      rel="noopener noreferrer" href="https://1stdibs.com">Front End Engineer @ 1stdibs</a>
         </ul>
       </div>
     </div>
