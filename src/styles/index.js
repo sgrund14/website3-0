@@ -146,7 +146,7 @@ const gr8css = gr8({
     translations
   ]
 })
-
+const height = 50;
 const custom = `
   html {
     font-size: 16px;
@@ -160,7 +160,7 @@ const custom = `
     font-kerning: normal;
   }
 
-  .navRow, #about, #work, #contact, .link {
+  .navRow, #about, #work, #contact, .link, .workImg {
     transition: transform 400ms cubic-bezier(0.165, 0.84, 0.44, 1);
   }
   .navRow:hover {
@@ -168,6 +168,16 @@ const custom = `
   }
   .panel-active {
     transform: translateY(0);
+  }
+  .workImg {
+    height: ${height}px;
+    width: calc(${height}px * 1.96829971182);
+    border-radius: 5%;
+    margin-right: 0.8rem;
+    transition: transform .15s;
+  }
+  .workEntry:hover > div > .workImg {
+    transform: translateY(-2.5px);
   }
   @media (max-height: 500px) {
     .navRow:hover {
