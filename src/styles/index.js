@@ -181,7 +181,7 @@ const custom = `
     transition: transform .15s;
   }
   .workEntry:hover > div > .workImg {
-    transform: translateY(-2.5px);
+    transform: translateX(-16px) scale(1.15);
   }
   @media (max-height: 500px) {
     .navRow:hover {

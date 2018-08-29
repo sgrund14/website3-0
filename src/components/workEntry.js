@@ -6,7 +6,7 @@ module.exports = function (entry) {
       href=${entry.link}
       target="__blank"
       rel="noopener noreferrer"
-      class="xn x xjb xac px4 tdn fc-white hv12-5 bg-white-h fc-dg-h workEntry"
+      class="xn x xjb xac px4 tdn fc-white hv12-5 workEntry"
       portrait="px2 xdc xas xjc ha pt1 pb1"
       short="ha pt0-8 pb0-8"
     >
