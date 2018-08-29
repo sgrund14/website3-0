@@ -164,7 +164,7 @@ const custom = `
     transition: transform 400ms cubic-bezier(0.165, 0.84, 0.44, 1);
   }
   .navRow:hover {
-    transform: translateY(-1rem)
+    transform: translateY(-.5rem)
   }
   .panel-active {
     transform: translateY(0);

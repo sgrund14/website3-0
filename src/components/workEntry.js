@@ -13,7 +13,7 @@ module.exports = function (entry) {
       <div class="x w50" portrait="w100 xdc">
         <img src="${entry.imgSrc}" alt="${entry.title}" class="w100 h100 workImg"/>
         <div class="x xdc" portrait="mt0-8">
-          <p class="m0 fwb" small="fs0-6" short="fs0-8">${entry.title}</p>
+          <p class="m0" small="fs0-6" short="fs0-8">${entry.title}</p>
           <p class="m0 fs0-8 mt0-6" small="fs0-6" short="fs0-6">${entry.description}</p>
         </div>
       </div>

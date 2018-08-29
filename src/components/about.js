@@ -12,11 +12,11 @@ module.exports = function (state, emit) {
         class="h100 w100 os"
       >
         <ul
-          class="fwb m0 hv25 x xdc xjc fs0-8 fwn lh2 lsn p0"
+          class="m0 hv25 x xdc xjc fs0-8 fwn lh2 lsn p0 wa"
           portrait="fs0-8 lh1-6 ha pl2 pb1"
           short="fs0-8 lh1-2"
         >
-          <li class="curd">Developer + Designer</li>
+          <li class="curd">Web Developer, Designer</li>
           <a class="tdn fc-black" target="__blank"
       rel="noopener noreferrer" href="http://1.bp.blogspot.com/-u_TD-Zwn23E/T8995hFjTuI/AAAAAAAADyI/rFZ__OCb7KE/s1600/Manhattan+New+York+City+4.jpg">New York City</a>
           <a class="tdn fc-black" target="__blank"
