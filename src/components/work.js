@@ -11,7 +11,7 @@ module.exports = function (state, emit) {
       small="l30 w70"
     >
       <div
-        class="h100 w100 os x xdcr"
+        class="h100 w100 os mobile-scroll x xdcr"
         portrait="db"
       >
         ${entries.map(entry => workEntry(entry))}

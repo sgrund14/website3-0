@@ -8,6 +8,7 @@ const type = {
 const colors = {
   lg: '#ededed',
   dg: '#5c5c5c',
+  blue: 'rgb(0,0,255)',
   bluegrey: '#545475',
   black: 'rgb(0, 0, 0)',
   white: 'rgb(255, 255, 255)'
@@ -158,6 +159,9 @@ const custom = `
     -webkit-font-feature-settings:"kern" 1; 
     font-feature-settings:"kern" 1;
     font-kerning: normal;
+  }
+  .mobile-scroll {
+    -webkit-overflow-scrolling: touch;
   }
 
   .navRow, #about, #work, #contact, .link, .workImg {
