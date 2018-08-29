@@ -4,7 +4,7 @@ module.exports = function (state, emit) {
   return html`
     <div
       id="about"
-      class="psa l20 w80 tv25 try75 bg-lg fc-black hv100 pl4"
+      class="panel-active psa l20 w80 tv25 try75 bg-lg fc-black hv100 pl4"
       portrait="p0 l0 b0 w100 tmobile trymobile ha pt0-6"
       small="l30 w70"
     >
@@ -18,7 +18,7 @@ module.exports = function (state, emit) {
         >
           <li class="curd">Web Developer, Designer</li>
           <li class="curd">New York City</li>
-          <li class="curd">Front End Engineer @ <a class="curp fc-black" target="__blank"
+          <li class="curd">Front End Engineer @ <a class="curp" target="__blank"
       rel="noopener noreferrer" href="https://1stdibs.com">1stdibs</a></li>
         </ul>
       </div>
