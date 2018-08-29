@@ -1734,8 +1734,8 @@
     transform: translateY(0);
   }
   .workImg {
-    height: 50px;
-    width: calc(50px * 1.96829971182);
+    height: 6.25vh;
+    width: calc(6.25vh * 1.96829971182);
     border-radius: 5%;
     margin-right: 0.8rem;
     transition: transform .15s;

@@ -146,7 +146,7 @@ const gr8css = gr8({
     translations
   ]
 })
-const height = 50;
+const height = '6.25vh';
 const custom = `
   html {
     font-size: 16px;
@@ -170,8 +170,8 @@ const custom = `
     transform: translateY(0);
   }
   .workImg {
-    height: ${height}px;
-    width: calc(${height}px * 1.96829971182);
+    height: ${height};
+    width: calc(${height} * 1.96829971182);
     border-radius: 5%;
     margin-right: 0.8rem;
     transition: transform .15s;
