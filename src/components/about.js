@@ -15,11 +15,10 @@ module.exports = function (state, emit) {
           class="m0 hv25 x xdc xjc fs0-8 fwn lh2 lsn p0 wa"
           portrait="fs0-8 lh1-6 ha pl2 pb1"
           short="fs0-8 lh1-2"
-        >
-          <li class="curd">Web Developer, Designer</li>
-          <li class="curd">New York City</li>
+        > 
           <li class="curd">Front End Engineer @ <a class="curp" target="__blank"
       rel="noopener noreferrer" href="https://1stdibs.com">1stdibs</a></li>
+          <li class="curd">New York City</li>
         </ul>
       </div>
     </div>
