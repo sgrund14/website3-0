@@ -103,7 +103,9 @@ const spacing = {
     mb: 'margin-bottom',
     p: 'padding',
     pt: 'padding-top',
-    pb: 'padding-bottom'
+    pb: 'padding-bottom',
+    mr: 'margin-right',
+    ml: 'margin-left'
   },
   vals: [0.6, 0.8, 2.2, 2.4, 2.6],
   unit: 'rem'
