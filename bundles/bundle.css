@@ -375,6 +375,7 @@
 .w80{width:80%}
 .w90{width:90%}
 .w100{width:100%}
+.fs0-4{font-size:0.4rem}
 .fs0-6{font-size:0.6rem}
 .fs0-8{font-size:0.8rem}
 .fs1{font-size:1rem}
@@ -817,6 +818,7 @@
 [portrait~="w80"]{width:80%}
 [portrait~="w90"]{width:90%}
 [portrait~="w100"]{width:100%}
+[portrait~="fs0-4"]{font-size:0.4rem}
 [portrait~="fs0-6"]{font-size:0.6rem}
 [portrait~="fs0-8"]{font-size:0.8rem}
 [portrait~="fs1"]{font-size:1rem}
@@ -1260,6 +1262,7 @@
 [small~="w80"]{width:80%}
 [small~="w90"]{width:90%}
 [small~="w100"]{width:100%}
+[small~="fs0-4"]{font-size:0.4rem}
 [small~="fs0-6"]{font-size:0.6rem}
 [small~="fs0-8"]{font-size:0.8rem}
 [small~="fs1"]{font-size:1rem}
@@ -1703,6 +1706,7 @@
 [short~="w80"]{width:80%}
 [short~="w90"]{width:90%}
 [short~="w100"]{width:100%}
+[short~="fs0-4"]{font-size:0.4rem}
 [short~="fs0-6"]{font-size:0.6rem}
 [short~="fs0-8"]{font-size:0.8rem}
 [short~="fs1"]{font-size:1rem}

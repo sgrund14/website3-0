@@ -13,7 +13,7 @@ module.exports = function (state, emit) {
       >
         <ul
           class="m0 hv25 x xdc xjc fs0-8 fwn lh2 lsn p0 wa"
-          portrait="fs0-8 lh1-6 ha pl2 pb1"
+          portrait="fs0-8 lh1-6 ha pl2 pb1 pt1"
           short="fs0-8 lh1-2"
         > 
           <li class="curd">Front End Engineer @ <a class="curp" target="__blank"
