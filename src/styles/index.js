@@ -107,7 +107,7 @@ const spacing = {
     mr: 'margin-right',
     ml: 'margin-left'
   },
-  vals: [0.6, 0.8, 2.2, 2.4, 2.6],
+  vals: [0.2, 0.4, 0.6, 0.8, 2.2, 2.4, 2.6],
   unit: 'rem'
 }
 

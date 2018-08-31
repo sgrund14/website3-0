@@ -15,7 +15,7 @@ module.exports = function (entry) {
         <div class="x xx xac xjb" portrait="xdc xafs">
           <div class="x xdc">
             <p class="m0" small="fs0-6" short="fs0-8" portrait="fs0-8">${entry.title}</p>
-            <p class="m0 fs0-8 mt0-6" small="fs0-6" short="fs0-6" portrait="fs0-6">${entry.description}</p>
+            <p class="m0 fs0-8 mt0-6" small="fs0-6" short="fs0-6" portrait="fs0-6 mt0-2">${entry.description}</p>
           </div>
           <p class="m0 fs0-8" small="fs0-6" short="fs0-6" portrait="fs0-6">${entry.role}</p>
         </div>
