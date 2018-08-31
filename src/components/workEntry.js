@@ -11,7 +11,10 @@ module.exports = function (entry) {
       short="ha pt0-8 pb0-8"
     >
       <div class="x w50 xac" portrait="w100 xdc">
-        <img src="${entry.imgSrc}" alt="${entry.title}" class="w100 h100 workImg"/>
+        <div class="x xjc xac mr0-8">
+          <span>${ "->" }</span>
+          <img src="${entry.imgSrc}" alt="${entry.title}" class="w100 h100 workImg"/>
+        </div>
         <div class="x xdc" portrait="mt0-8">
           <p class="m0" small="fs0-6" short="fs0-8">${entry.title}</p>
           <p class="m0 fs0-8 mt0-6" small="fs0-6" short="fs0-6">${entry.description}</p>

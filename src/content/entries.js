@@ -15,16 +15,6 @@ const contactEntries = [
     link: 'https://www.are.na/samuel-grund'
   },
   {
-    platform: 'Twitter',
-    username: '@s_and_p_games',
-    link: 'https://twitter.com/s_and_p_games'
-  },
-  {
-    platform: 'Linkedin',
-    username: '@samuel-grund',
-    link: 'https://www.linkedin.com/in/samuel-grund-2a7481108'
-  },
-  {
     platform: 'P2P',
     username: 'dat://1d671b7387087d527de9790520295383c1fb2fe88655bfbe78f477e87dcddd99/',
     link: 'dat://1d671b7387087d527de9790520295383c1fb2fe88655bfbe78f477e87dcddd99/'

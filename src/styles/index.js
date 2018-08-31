@@ -177,11 +177,13 @@ const custom = `
     height: ${height};
     width: calc(${height} * 1.96829971182);
     border-radius: 5%;
-    margin-right: 0.8rem;
     transition: transform .15s;
   }
+  .workEntryBottom {
+    width: calc(${height} * 1.5);
+  }
   .workEntry:hover > div > .workImg {
-    transform: translateX(-16px) scale(1.15);
+    transform: translateX(-16px) scale(1.2);
   }
   @media (max-height: 500px) {
     .navRow:hover {
